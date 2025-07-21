@@ -14,12 +14,12 @@
 @import url("https://fonts.googleapis.com/css2?family=Monoton&display=swap");
 
 /****Components****/
-@import url("https://boxamazookk.github.io/ChilledBox/Components/WindowsButtons.css");
-@import url("https://boxamazookk.github.io/ChilledBox/Components/UserArea.css");
-@import url("https://boxamazookk.github.io/ChilledBox/Components/Embeds.css");
-@import url("https://boxamazookk.github.io/ChilledBox/Components/ChatArea.css");
-@import url("https://boxamazookk.github.io/ChilledBox/Components/ChannelHeader.css");
-@import url("https://boxamazookk.github.io/ChilledBox/Components/EmojiPicker.css");
+@import url("https://raw.githubusercontent.com/boxamazookk/ChilledBox/refs/heads/docs/Components/ChannelHeader.css");
+@import url("https://raw.githubusercontent.com/boxamazookk/ChilledBox/refs/heads/docs/Components/ChatArea.css");
+@import url("https://raw.githubusercontent.com/boxamazookk/ChilledBox/refs/heads/docs/Components/Embeds.css");
+@import url("https://raw.githubusercontent.com/boxamazookk/ChilledBox/refs/heads/docs/Components/EmojiPicker.css");
+@import url("https://raw.githubusercontent.com/boxamazookk/ChilledBox/refs/heads/docs/Components/UserArea.css");
+@import url("https://raw.githubusercontent.com/boxamazookk/ChilledBox/refs/heads/docs/Components/WindowsButtons.css");
 
 /***TRANSPARENT CODES***/
 /**transparent part LVL I**/
