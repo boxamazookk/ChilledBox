@@ -6,13 +6,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Libre+Barcode+128&family=Libre+Barcode+128+Text&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Monoton&display=swap");
 
-/****ADDONS****/
-@import url("https://mwittrien.github.io/BetterDiscordAddons/Themes/BlurpleRecolor/BlurpleRecolor.css");
-@import url("https://warrayquipsome.github.io/Chillax/ChillaxTag.css");
-@import url("https://warrayquipsome.github.io/Chillax/Addons/SettingsModalEdited.css");
-@import url("https://warrayquipsome.github.io/Chillax/Addons/AccountDetailsGrid.css");
-@import url("https://crearts-community.github.io/Friends-Grid/theme.css");
-
 /****CHILLAX COMPONENTS****/
 @import url("https://warrayquipsome.github.io/Chillax/Components/WindowsButtons.css");
 @import url("https://warrayquipsome.github.io/Chillax/Components/UserArea.css");
@@ -675,7 +668,7 @@ html.theme-light .monaco-editor .margin {
 
 /*welcome text*/
 body:before {
-    content: "Greetings " var(--user-name) "!";
+    content: "Yooo " var(--user-name) "!!!!!";
     z-index: 1000000000000000000000000;
     top: 0px;
     left: 52%;
