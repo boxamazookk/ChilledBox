@@ -17,6 +17,24 @@
     transition: 0.5s ease-in-out;
     color: var(--text-primary);
 }
+.bar_c38106 {
+    padding: 2px 0 2px 0;
+}
+
+.leading_c38106::before {
+    content: "‏‏‎ Chilledbox, a fork of:";
+    font-size: 12px;
+    font-weight: 900;
+    font-family: "Poiret one" !important;
+    background: var(--window-colour);
+    backdrop-filter: blur(var(--window-blur));
+    border-radius: 5px;
+    padding: 10px 11px 10px 7px;
+    margin-left: var(--window-margin);
+    pointer-events: all;
+    transition: 0.5s ease-in-out;
+    color: var(--text-primary);
+}
 
 .leading_c38106:hover::before {
     content: "‏‏‎ c h i l l a x";
