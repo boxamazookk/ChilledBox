@@ -1,12 +1,12 @@
 /**
- * @name chilledbox
+ * @name Chillax
  * @author Chillax Squad
  * @authorLink https://github.com/warrayquipsome/Chillax#Authors
- * @version fv_0.0.1
- * @description fork of Chillax made for boxamazook
- * @originalsource https://github.com/warrayquipsome/Chillax
+ * @version 2.1.1
+ * @invite DrfX6286kF
+ * @description The theme where calm meets customization.
+ * @source https://github.com/warrayquipsome/Chillax
 */
-
 /*
       _     _ _ _          _   _               
   ___| |__ (_) | | ___  __| | | |__   _____  __
@@ -16,14 +16,37 @@
                                                
 */
 
+/* CHILLAX theme entry point */
+@import url("https://warrayquipsome.github.io/Chillax/chillax.css");
+
+/* removable addons */
+@import url("https://mwittrien.github.io/BetterDiscordAddons/Themes/EmojiReplace/base/Microsoft.css");
+@import url("https://mwittrien.github.io/BetterDiscordAddons/Themes/_res/SettingsIcons.css");
+@import url("https://chillax-org.github.io/Discolored/main.css");
+@import url("https://warrayquipsome.github.io/Chillax/Addons/IconPackEdited.css");
+@import url("https://warrayquipsome.github.io/Chillax/Addons/AvatarOnlyMemberList.css");
+@import url("https://warrayquipsome.github.io/Chillax/Addons/FolderRedesign.css");
+@import url("https://raw.githubusercontent.com/DiscordStyles/RadialStatus/refs/heads/deploy/RadialStatus.css");
+@import url("https://warrayquipsome.github.io/Chillax/Addons/FriendGrid.css");
+@import url("https://warrayquipsome.github.io/Chillax/Addons/ColoredLinks.css");
+
+/*additional addons*/ /*(remove the both * to use)*/
+/*use the below css if you are experiencing lag (remove the both * to use)*/
+/*@import url("https://warrayquipsome.github.io/Chillax/Addons/SimpleLessLag.css");*/
+/* To hide annoying elements such as nitro, shop, sticker picker etc tab (remove the both * to use)*/
+/*@import url("https://warrayquipsome.github.io/Chillax/Addons/HideAnnoyingElements.css");*/
+
 
 /*ChilledBox Roots*/
 :root {
-    /*background image*/
+    /*background image*/ /*(replace the link to use)*/
     --background-image: var(--wallpaper);
     --bg-opacity: 100%;
-    /*bgs*/
+    /*bg dev suggestions*/
     --wallpaper: url("https://files.catbox.moe/1w8e91.jpg");
+    /*modern background selection*/
+    --modern-dark-bg: url("https://warrayquipsome.github.io/Chillax/Wallpapers/modern-dark-bg.png");
+    --modern-light-bg: url("https://warrayquipsome.github.io/Chillax/Wallpapers/modern-light-bg.png");
 }
 
 
@@ -89,7 +112,7 @@
     --memberlist-border-radius: 10px; /* can be in `px`, `rem`, `em` */
 
     /* placeholder texts/values */
-    /* input fields */
+       /* input fields */
     --chillax-input-field: "Wanna talk to them? :3";
     /* input fields  when the channel is locked*/
     --chillax-input-field-locked: "Awww... you cant talk here :(";
@@ -97,10 +120,6 @@
     --chillax-input-typing-indicator-one-person: "is texting rn";
     /* typing indicator: when more than one person is typing */
     --chillax-input-typing-indicator-many-person: "are all texting rn";
-
-    /* scroller (by default transparent) */
-    --chillax-scroller-color: transparent; /* change `transparent` to some other hex color to make it visible */
-
     /* Spotify Player Control Squid GIF Adjustments */
 
     /* Change the ulr in the `--chillax-spotify-control-squid-gif-url` css var to your liking */
