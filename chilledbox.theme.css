@@ -19,14 +19,11 @@
 
 /*ChilledBox Roots*/
 :root {
-    /*background image*/ /*(replace the link to use)*/
+    /*background image*/
     --background-image: var(--wallpaper);
     --bg-opacity: 100%;
-    /*bg dev suggestions*/
-    --wallpaper: url("https://boxamazookk.github.io/ChilledBox/Wallpapers/twotime-azure.png");
-    /*modern background selection*/
-    --modern-dark-bg: url("https://warrayquipsome.github.io/Chillax/Wallpapers/modern-dark-bg.png");
-    --modern-light-bg: url("https://warrayquipsome.github.io/Chillax/Wallpapers/modern-light-bg.png");
+    /*bgs*/
+    --wallpaper: url("https://files.catbox.moe/1w8e91.jpg");
 }
 
 
@@ -51,7 +48,7 @@
 
 /*roots*/ /*both dark and light*/
 :root {
-    --user-name: "King";
+    --user-name: "boxamazook";
     --edited-message: " EDITED ✎ ";
     --font-name: Poppins;
     --font-size: 13px;
@@ -93,13 +90,13 @@
 
     /* placeholder texts/values */
     /* input fields */
-    --chillax-input-field: "Life is so much easier when you just take a moment to chill";
+    --chillax-input-field: "Wanna talk to them? :3";
     /* input fields  when the channel is locked*/
-    --chillax-input-field-locked: "Unfortunately, you can't chill in this channel";
+    --chillax-input-field-locked: "Awww... you cant talk here :(";
     /* typing indicator: when a single person is typing */
-    --chillax-input-typing-indicator-one-person: "is smashing some buttons";
+    --chillax-input-typing-indicator-one-person: "is texting rn";
     /* typing indicator: when more than one person is typing */
-    --chillax-input-typing-indicator-many-person: "are smashing some buttons";
+    --chillax-input-typing-indicator-many-person: "are all texting rn";
 
     /* scroller (by default transparent) */
     --chillax-scroller-color: transparent; /* change `transparent` to some other hex color to make it visible */
