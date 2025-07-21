@@ -17,10 +17,10 @@
                                                
 */
 
-/* CHILLAX theme entry point */
+/* Im using chillax css code right now because mine broke LMAO */
 @import url("https://warrayquipsome.github.io/Chillax/chillax.css");
 
-/* removable addons */
+/* addons (remove by putting "/* and */) */
 @import url("https://mwittrien.github.io/BetterDiscordAddons/Themes/EmojiReplace/base/Microsoft.css");
 @import url("https://mwittrien.github.io/BetterDiscordAddons/Themes/_res/SettingsIcons.css");
 @import url("https://chillax-org.github.io/Discolored/main.css");
@@ -30,30 +30,24 @@
 @import url("https://raw.githubusercontent.com/DiscordStyles/RadialStatus/refs/heads/deploy/RadialStatus.css");
 @import url("https://warrayquipsome.github.io/Chillax/Addons/FriendGrid.css");
 @import url("https://warrayquipsome.github.io/Chillax/Addons/ColoredLinks.css");
-
-/*additional addons*/ /*(remove the both * to use)*/
-/*use the below css if you are experiencing lag (remove the both * to use)*/
-/*@import url("https://warrayquipsome.github.io/Chillax/Addons/SimpleLessLag.css");*/
-/* To hide annoying elements such as nitro, shop, sticker picker etc tab (remove the both * to use)*/
 /*@import url("https://warrayquipsome.github.io/Chillax/Addons/HideAnnoyingElements.css");*/
 
 
-/*ChilledBox Roots*/
+/*Change this if you want (Only if you know what youre doing)*/
 :root {
     /*background image*/ /*(replace the link to use)*/
     --background-image: var(--wallpaper);
     --bg-opacity: 100%;
-    /*bg dev suggestions*/
+    /*Custom wallpaper: upload your image file to Catbox.moe and replace the url below to your catbox url*/
     --wallpaper: url("https://files.catbox.moe/1w8e91.jpg");
-    /*modern background selection*/
-    --modern-dark-bg: url("https://warrayquipsome.github.io/Chillax/Wallpapers/modern-dark-bg.png");
-    --modern-light-bg: url("https://warrayquipsome.github.io/Chillax/Wallpapers/modern-light-bg.png");
+    /*Extra backgrounds*/
+/* (none) */
 }
 
 
 /*window*/ /*dark mode*/
 :root.theme-dark {
-    --window-margin: 20px; /*must be above 20px*/
+    --window-margin: 20px; /*must be above 20px or it doesnt fit screen*/
     --window-colour: #0009;
     --window-blur: 5px;
     --window-border-radius: 10px;
@@ -62,7 +56,7 @@
 
 /*window*/ /*light mode*/
 :root.theme-light {
-    --window-margin: 20px; /*must be above 20px*/
+    --window-margin: 20px; /*must be above 20px or it doesnt fit screen*/
     --window-colour: rgba(255, 255, 255, 0.6);
     --window-blur: 5px;
     --window-border-radius: 10px;
@@ -72,11 +66,12 @@
 
 /*roots*/ /*both dark and light*/
 :root {
-    --user-name: "boxamazook";
+      /* change the username to whatever u want */
+    --user-name: "Homie";
     --edited-message: " EDITED ✎ ";
     --font-name: Poppins;
     --font-size: 13px;
-    --group-chat-font: "Monoton"; /* change this to change the group chat's default font */
+    --group-chat-font: "Monoton"; /* change this to whatever u want groupchat font to be*/
 
 
     /*glow radial status*/ /*must end in px*/
@@ -97,9 +92,9 @@
     --rs-phone-color: var(--rs-online-color);
 
     /* For accent color to take full effect must need to change both */
-    /* chillax colours rgb */
+    /* chilledbox colours rgb */
     --accentcolor: 251, 84, 84;
-    /* chillax colours hex */
+    /* chilledbox colours hex */
     --accentcolorV2: #fb5454;
 
 
@@ -112,22 +107,21 @@
     /* avatar only member list */
     --memberlist-border-radius: 10px; /* can be in `px`, `rem`, `em` */
 
-    /* placeholder texts/values */
+    /* Chnge below to whatever you want if you know what youre doing */
        /* input fields */
-    --chillax-input-field: "Wanna talk to them? :3";
+    --chilledbox-input-field: "Wanna talk to them? :3";
     /* input fields  when the channel is locked*/
-    --chillax-input-field-locked: "Awww... you cant talk here :(";
+    --chilledbox-input-field-locked: "Awww... you cant talk here :(";
     /* typing indicator: when a single person is typing */
-    --chillax-input-typing-indicator-one-person: "is texting rn";
+    --chilledbox-input-typing-indicator-one-person: "is texting rn";
     /* typing indicator: when more than one person is typing */
-    --chillax-input-typing-indicator-many-person: "are all texting rn";
-    /* Spotify Player Control Squid GIF Adjustments */
+    --chilledbox-input-typing-indicator-many-person: "are all texting rn";
 
-    /* Change the ulr in the `--chillax-spotify-control-squid-gif-url` css var to your liking */
-    --chillax-spotify-control-squid-gif-url: "https://static.wikia.nocookie.net/minecraft_gamepedia/images/0/0c/Glow_Squid_BE1.gif";
+    /* Change the url to whatever gif you want, this will be used for the little like timeline for spotify status */
+    --chilledbox-spotify-control-gif-url: "https://files.catbox.moe/86pkvg.gif";
     /* adjust the height and width accordingly */
-    --chillax-spotify-control-squid-width: 25px;
-    --chillax-spotify-control-squid-height: 25px;
+    --chilledbox-spotify-control-width: 25px;
+    --chilledbox-spotify-control-height: 25px;
 
 }
 
